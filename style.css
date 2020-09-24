@@ -1,63 +1,3 @@
-/*
-name:Cryptian, Bitcoin and Cryptocurrency HTML5 Landing Page;
-author:uivision;
-version:1.0.0;
-
-css list:
-===========================
-1:base css
-===========================
-1:header css
-===========================
-2:welcome css
-===========================
-3:about css
-===========================
-4:ico area css
-===========================
-5:Documentation area css
-===========================
-6:roadmap area css
-===========================
-7:team area css
-===========================
-8:faq area css
-===========================
-9:team bg area css
-===========================
-10:distibution area css
-===========================
-10:apps area css
-===========================
-11:community area cs
-===========================
-12:footer area css
-===========================
-13:mobile menu css
-===========================
->homePage version 2 css
-----------------------------
-        --welcome area v2 css
-        -------------------
-        --faq v2 area css
-        ------------------
-        --community v2 area css
-        -----------------------
-    
-==========================
-14:blog page css
-==========================
-15:single-blog page css
-==========================
-16:comman css
-
-*/
-
-
-/*===================
-     base css
-=====================*/
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,800');
 body {
     background: #062489;
@@ -87,12 +27,6 @@ ul {
 a,
 a:hover {
     text-decoration: none;
-}
-
-input:focus,
-button:focus,
-textarea:focus {
-    outline: none
 }
 
 input,
@@ -152,11 +86,6 @@ a.single-about,
 
 .logo-area img {
     width: 80%;
-}
-
-.header {
-    height: 110px;
-    border: 1px solid red;
 }
 
 .header-area {
@@ -255,7 +184,7 @@ a.single-about,
 }
 
 .welcome-text h1 {
-    font-size: 43px;
+    font-size: 22px;
     font-weight: 700;
     line-height: 50px;
 }
@@ -270,7 +199,6 @@ a.single-about,
     height: 161%;
     content: "";
     background: url(assets/img/Group1.png) no-repeat;
-    background: ;
     top: -62%;
     left: -29%;
     z-index: -1;
@@ -1480,7 +1408,6 @@ blog page css
 }
 
 .single-blog-image {
-    background: ;
     background-position: center !important;
     background-size: cover !important;
     height: 300px;
@@ -1596,7 +1523,6 @@ a.single-blog-top:hover {
     display: block;
     color: #676767;
     background: #f8f8f8;
-    font-size: ;
     text-transform: capitalize;
     height: 40px;
     width: 91px;
